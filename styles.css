@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+  width: 1440px;
+  height: 1000px;
+  padding: 115px 132px;
+  background-color: #141B1C;
+  color: #FFFFFF;
+}
+
+.price-tables {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.price-card__title {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin: 33px 140px;
+}
+
+.price-card__title::first-line {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+}
+
+.price-card__badge {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  right: -31px;
+  top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price-card__badge-text {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.price-card__trapezoid {
+  height: 0;
+  width: 147px;
+  border-bottom: 25px solid #DC3F45;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+}
+
+.price-card__price {
+  font-size: 55px;
+  line-height: 67px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #5BB189;
+  width: 380px;
+  height: 105px;
+  padding: 19px 110px;
+}
+
+.price-card__description {
+  margin: 40px 36px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  width: 327px;
+}
+
+.price-card__options-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.price-card__options-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.price-card__options-list-item:nth-child(odd) {
+  background-color: #2A3438;
+}
+
+.price-card__shape {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin: 0 22px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.price-card__order-btn {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  width: 154px;
+  height: 40px;
+  margin: 38px 113px 40px 112px;
+  background-color: #5BB189;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.price-card:nth-child(2) .price-card__shape {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.price-card:nth-child(2) .price-card__order-btn {
+  background-color: #3A6BA5;
+}
+
+.price-card:nth-child(2) .price-card__price {
+  background-color: #3A6BA5;
+}
+
+.price-card:nth-child(2) .price-card__title {
+  margin: 33px 108px;
+}
+
+.price-card:last-child .price-card__shape {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+.price-card:last-child .price-card__order-btn {
+  background-color: #EC632A;
+}
+
+.price-card:last-child .price-card__price {
+  background-color: #EC632A;
+}
+
+.price-card:last-child .price-card__title {
+  margin: 33px 102px;
+}
+/*# sourceMappingURL=styles.css.map */
